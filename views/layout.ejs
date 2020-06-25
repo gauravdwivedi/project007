@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            <%= locals.title %>
+        </title>
+        <link rel="stylesheet" href="/css/layout.css">
+        <%- style %>
+        
+    </head>
+
+    <body>
+        <%- include('_header'); %>
+        <!-- varaible part body is already defined -->
+        <%- body %>
+
+        <%- include('_footer'); %>
+
+        <%- script %>
+
+    </body>
+</html>
